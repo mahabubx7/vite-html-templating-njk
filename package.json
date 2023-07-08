@@ -1,0 +1,22 @@
+{
+  "name": "port",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier . -w"
+  },
+  "devDependencies": {
+    "@vituum/vite-plugin-nunjucks": "^1.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.0",
+    "vituum": "^1.0.0"
+  },
+  "dependencies": {}
+}
